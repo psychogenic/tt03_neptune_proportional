@@ -30,7 +30,7 @@ module tb (
     assign segments = outputs[6:0];
 
     // instantiate the DUT
-    psychogenic_neptunefixed neptune(
+    psychogenic_neptuneprop neptune(
         `ifdef GL_TEST
             .vccd1( 1'b1),
             .vssd1( 1'b0),
